@@ -17,3 +17,22 @@ Before you begin, ensure you have the following installed:
 - Go (Golang): [Installation Guide](https://golang.org/doc/install)
 - Docker: [Installation Guide](https://docs.docker.com/get-docker/)
 - Docker Compose: [Installation Guide](https://docs.docker.com/compose/install/)
+
+## RUN Sample
+
+```
+cd Microservic_SOLID
+
+go run cmd\main.go
+
+```
+
+## Sample output
+
+```
+
+Device Smart Light registered successfully.
+Device Smart Thermostat registered successfully.
+Processing data: map[humidity:50 temperature:22.5]
+
+```
