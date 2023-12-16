@@ -1,0 +1,47 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with 'go test -c'
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# The old directory layout: /pkg/ and /src/
+/pkg/
+/src/
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.lib
+
+# Folders
+_test/
+
+# Log files and binaries from the log package
+*.log
+log/
+
+# Application binaries
+app
+
+# Output directory
+/bin/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Dependency directories
+vendor/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
